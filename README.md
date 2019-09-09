@@ -1,2 +1,3 @@
-# speechreader-repo
-Aplicação para leitura de texto e gravação do mesmo se o que quiser
+# Speechreader
+
+A C# soft that reads text and had the possibility to record everything that is being read.
