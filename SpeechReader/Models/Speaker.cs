@@ -17,6 +17,7 @@ namespace SpeechReader
             _speak = new SpeechSynthesizer();
             _speak.SpeakStarted += _speak_SpeakStarted;
             _speak.SpeakCompleted += _speak_SpeakCompleted;
+            _speak.SpeakProgress += _speak_SpeakProgress;
             _voices = _speak.GetInstalledVoices();
 
         }
@@ -73,6 +74,7 @@ namespace SpeechReader
         {
             Debugger.Log(0, "Note", "Speaking Done");
             SpeechReader.Completed();
+            SpeechReader.Instance.MarkReadingText(0, 0);
         }
 
         public void _speak_SpeakStarted(object sender, SpeakStartedEventArgs e)
@@ -81,6 +83,10 @@ namespace SpeechReader
             SpeechReader.Started();
         }
 
-
+        private void _speak_SpeakProgress(object sender, SpeakProgressEventArgs e)
+        {
+            SpeechReader.Instance.MarkReadingText
+                (SpeechReader.StartTextPosition + e.CharacterPosition, e.Text.Length);
+        }
     }
 }

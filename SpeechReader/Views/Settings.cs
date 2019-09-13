@@ -34,6 +34,7 @@ namespace SpeechReader
         {
             this.Visible = false;
             this.Dispose();
+            Settings.Instance = null;
         }
 
         private void ExitBtn_MouseLeave(object sender, EventArgs e)

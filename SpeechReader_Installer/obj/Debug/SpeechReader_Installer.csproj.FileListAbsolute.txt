@@ -10,3 +10,15 @@ C:\Users\Afonso Mat Elias\Source\Repos\SpeechReader\SpeechReader_Installer\obj\D
 C:\Users\Afonso Mat Elias\Source\Repos\SpeechReader\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.exe.manifest
 C:\Users\Afonso Mat Elias\Source\Repos\SpeechReader\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.application
 C:\Users\Afonso Mat Elias\Source\Repos\SpeechReader\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.csprojAssemblyReference.cache
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\bin\Debug\SpeechReader_Installer.exe.config
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\bin\Debug\SpeechReader_Installer.exe.manifest
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\bin\Debug\SpeechReader_Installer.application
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\bin\Debug\SpeechReader_Installer.exe
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\bin\Debug\SpeechReader_Installer.pdb
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.csprojAssemblyReference.cache
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.csproj.CoreCompileInputs.cache
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.TrustInfo.xml
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.exe.manifest
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.application
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.exe
+C:\Users\Afonso Mat Elias\Documents\Init.Projects\easy\github\speechreader-repo\SpeechReader_Installer\obj\Debug\SpeechReader_Installer.pdb

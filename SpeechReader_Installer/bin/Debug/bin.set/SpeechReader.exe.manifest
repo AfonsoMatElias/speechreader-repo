@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpeechReader.exe" size="474624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpeechReader.exe" size="475136">
       <assemblyIdentity name="SpeechReader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4TnjyBpmRrjCAodd7aUAHLTPFREZssPweKTlS17ZfWs=</dsig:DigestValue>
+        <dsig:DigestValue>p62I9EZwXH8C8Lx1bkUqlGeohbgJH7lc/nOF3oR8e8A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

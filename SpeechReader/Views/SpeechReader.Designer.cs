@@ -228,8 +228,10 @@
             this.ContentTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
             this.ContentTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ContentTextBox.Location = new System.Drawing.Point(3, 68);
+            this.ContentTextBox.MaxLength = 50000000;
             this.ContentTextBox.Multiline = true;
             this.ContentTextBox.Name = "ContentTextBox";
+            this.ContentTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.ContentTextBox.Size = new System.Drawing.Size(856, 422);
             this.ContentTextBox.TabIndex = 0;
             this.ContentTextBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.ContentTextBox_DragDrop);

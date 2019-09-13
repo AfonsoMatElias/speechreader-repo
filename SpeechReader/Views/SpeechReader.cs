@@ -30,6 +30,7 @@ namespace SpeechReader
         private Recorder _recorder = null;
         // Helper to check if the theme is dark
         public static bool IsDark = false;
+        public static int StartTextPosition { get; set; } = 0;
 
         public static List<string> _voices = new List<string>();
 
@@ -57,7 +58,10 @@ namespace SpeechReader
                 var text = ContentTextBox.Text;
 
                 if (ContentTextBox.SelectionLength > 0)
+                {
+                    StartTextPosition = text.IndexOf(ContentTextBox.SelectedText);
                     text = ContentTextBox.SelectedText;
+                }
 
                 _speaker.StartSpeaking(text);
                 BeginReading();
@@ -285,6 +289,11 @@ namespace SpeechReader
 
         #region Helpers
 
+        public void MarkReadingText(int s, int l) {
+
+            ContentTextBox.Select(s, l);
+        }
+
         public void Loading(bool b)
         {
 
@@ -343,6 +352,7 @@ namespace SpeechReader
 
         public void EndReading()
         {
+            StartTextPosition = 0;
             // Signing that read stopped 
             _reading = false;
 
@@ -361,7 +371,6 @@ namespace SpeechReader
             // Setting text
             this.StatusText("");
         }
-
 
         public void SetUISpeed(int v)
         {
@@ -384,14 +393,9 @@ namespace SpeechReader
             //action.Invoke(Instance, new object[] { true });
         }
 
-        public void SetUIRootPath(string v)
-        {
-            _recorder.SetRoot(v);
-        }
-
+        public void SetUIRootPath(string v) => _recorder.SetRoot(v);
 
         #endregion
-
 
         #region Drag and Drop Zone
 
