@@ -16,12 +16,12 @@ Here the main screens of the software:
     Settings Dark Screen
 ![Png](assets/imgs/sr-set-dark.png)
 
-<p style="text-align:center; font-size:11pt; margin:0;"> 
+<p align="center" style="text-align:center; font-size:11pt; margin:0;"> 
     Thanks a lot for visiting SpeechReader repo 🙂, I hope you enjoyed!!! 👌<br/>
-    <h4 style="text-align:center;">Salute 😃</h4> 
+    <h4 align="center"align="center" style="text-align:center;">Salute 😃</h4> 
 </p>
 <br/>
 
-<p style="text-align:center; font-size:11pt; margin:0;"> 
+<p align="center" style="text-align:center; font-size:11pt; margin:0;"> 
     © 2019, Afonso Matumona Elias
 </p>
